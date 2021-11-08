@@ -1,0 +1,31 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="[LW`]ePAEIpvl39/OVF{">distance</variable></variables><block type="pxt-on-start" id="b`;3B.9:45JmV+]ImnHq" x="0" y="0"/><block type="device_forever" id="M%g^i-pO@wkwzlF7hE9Q" x="205" y="0"><statement name="HANDLER"><block type="variables_set" id="OR/}4%F6k:a=G?z_fhj2"><field name="VAR" id="[LW`]ePAEIpvl39/OVF{">distance</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="sonar_ping" id="ToOV1wJ?wBTAi)AWK[Oi"><field name="trig">DigitalPin.P0</field><field name="echo">DigitalPin.P1</field><field name="unit">PingUnit.Centimeters</field></block></value><next><block type="controls_if" id="m-h@i.f^D,6CAu^U{YM|"><mutation elseif="4" else="1"/><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="4H_Rx+ShY9:35+Ruh@dn"><field name="OP">LTE</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="tq5zq63i~l9I$pXfTJy_"><field name="VAR" id="[LW`]ePAEIpvl39/OVF{">distance</field></block></value><value name="B"><shadow type="math_number" id="ezFFR6y{m{B,#AJmq;hb"><field name="NUM">5</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id=")Y%|U:6.2HNz(TkUM4+/"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        # # # # #
+        `</field></block></statement><value name="IF1"><block type="logic_compare" id="tX6V-4HKW/ynARw?P9,L"><field name="OP">LTE</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="IH5:4IKM6Vk*geZTjGTI"><field name="VAR" id="[LW`]ePAEIpvl39/OVF{">distance</field></block></value><value name="B"><shadow type="math_number" id="p{Vk#0dU;%,2kot)n]ed"><field name="NUM">10</field></shadow></value></block></value><statement name="DO1"><block type="device_show_leds" id=")+F5Y%gB^k4I7v[Qbzti"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        # # # # # 
+        # # # # #
+        `</field></block></statement><value name="IF2"><block type="logic_compare" id="E6%@,eRz2wMaQ$2K=?EV"><field name="OP">LTE</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="cJ+T}hyU`Wq]nE;FpZlc"><field name="VAR" id="[LW`]ePAEIpvl39/OVF{">distance</field></block></value><value name="B"><shadow type="math_number" id="7iF~u$z$)s+nM^*eK:WD"><field name="NUM">15</field></shadow></value></block></value><statement name="DO2"><block type="device_show_leds" id="xoOx~t+K}%#m`}g6B.P%"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        # # # # # 
+        # # # # # 
+        # # # # #
+        `</field></block></statement><value name="IF3"><block type="logic_compare" id="*,e-+(P.%X,-:Sn*8x!o"><field name="OP">LTE</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="G6`=H~VP/krV9cK46Z8_"><field name="VAR" id="[LW`]ePAEIpvl39/OVF{">distance</field></block></value><value name="B"><shadow type="math_number" id="P6Oa5Js{Qi2o`975dz,)"><field name="NUM">20</field></shadow></value></block></value><statement name="DO3"><block type="device_show_leds" id="jmx|=4ZQ?K8+HQN0jU(L"><field name="LEDS">`
+        . . . . . 
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # #
+        `</field></block></statement><value name="IF4"><block type="logic_compare" id="6![R@7,_iUGS.LGcu[6f"><field name="OP">LTE</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="]J$I2X}JkY8(;d9ZHW]#"><field name="VAR" id="[LW`]ePAEIpvl39/OVF{">distance</field></block></value><value name="B"><shadow type="math_number" id="f.MG!vVKq`~aRC(=shma"><field name="NUM">25</field></shadow></value></block></value><statement name="DO4"><block type="device_show_leds" id="U.BP||gZeV=;#ctbk42g"><field name="LEDS">`
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # #
+        `</field></block></statement><statement name="ELSE"><block type="basic_show_icon" id="3H|0fD;;scsTN}W^*l.="><field name="i">IconNames.No</field></block></statement></block></next></block></statement></block></xml>
